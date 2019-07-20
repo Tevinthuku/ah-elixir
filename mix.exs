@@ -1,4 +1,7 @@
 defmodule AhElixirApi.MixProject do
+  @moduledoc """
+  This is our apps setup
+  """
   use Mix.Project
 
   def project do
@@ -44,7 +47,8 @@ defmodule AhElixirApi.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:excoveralls, "~> 0.11.1", only: :test}
+      {:excoveralls, "~> 0.11.1", only: :test},
+      {:credo, "~> 1.1", only: [:dev, :test], runtime: false}
     ]
   end
 
