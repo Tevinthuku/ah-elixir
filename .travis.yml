@@ -7,7 +7,5 @@ services:
   - postgresql
 env:
   - MIX_ENV=test
-before_script:
-  - psql -c "CREATE USER tev WITH PASSWORD '8279';" -U postgres
-  - psql -c "ALTER USER tev CREATEDB;" -U postgres
+
 script: mix coveralls.travis

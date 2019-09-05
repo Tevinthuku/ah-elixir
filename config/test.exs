@@ -2,9 +2,9 @@ use Mix.Config
 
 # Configure your database
 config :ah_elixir_api, AhElixirApi.Repo,
-  username: "tev",
-  password: "8279",
-  database: "ah_elixir_test",
+  username: "postgres",
+  password: "postgres",
+  database: "ah_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
 
