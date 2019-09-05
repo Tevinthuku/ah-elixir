@@ -2,9 +2,9 @@ use Mix.Config
 
 # Configure your database
 config :ah_elixir_api, AhElixirApi.Repo,
-  username: "tev",
-  password: "8279",
-  database: "ah_elixir_dev",
+  username: "postgres",
+  password: "postgres",
+  database: "ah",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10

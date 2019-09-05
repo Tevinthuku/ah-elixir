@@ -28,3 +28,4 @@ ah_elixir_api-*.tar
 /priv/static/
 
 /.vscode
+/.idea
