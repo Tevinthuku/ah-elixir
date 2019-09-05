@@ -4,7 +4,7 @@ use Mix.Config
 config :ah_elixir_api, AhElixirApi.Repo,
   username: "postgres",
   password: "postgres",
-  database: "ah",
+  database: "ah_elixir",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10

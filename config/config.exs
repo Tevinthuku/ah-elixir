@@ -22,8 +22,15 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
+
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
+
+# Guardian config details
+config :ah_elixir_api, AhElixirApi.Guardian,
+       issuer: "ah_elixir_api",
+       secret_key: "IElGufycT9CdmWZzeMw8rg+y0javyobzMZv7bDkoTFyBQkmHTMeYWXMEEjoPtOUZ"
+
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

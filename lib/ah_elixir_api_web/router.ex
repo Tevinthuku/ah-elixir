@@ -13,5 +13,6 @@ defmodule AhElixirApiWeb.Router do
   scope "/api", AhElixirApiWeb do
     pipe_through :api
     get "/", WelcomeController, :table_of_content
+    post "/users/sign-up", UserController, :create
   end
 end
