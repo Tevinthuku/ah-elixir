@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/Tevinthuku/ah-elixir.svg?branch=develop)](https://travis-ci.org/Tevinthuku/ah-elixir)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/96aec182c8fd4a899d6854c92d4f076b)](https://www.codacy.com/app/Tevinthuku/ah-elixir?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Tevinthuku/ah-elixir&amp;utm_campaign=Badge_Grade)
 
-To start your Phoenix server:
+To start your Phoenix server
 
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.setup`
